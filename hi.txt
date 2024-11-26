@@ -1,0 +1,13 @@
+const stripe = require('stripe')('sk_test_51QPTaaEahRQonOierZd1OolfmAGLS4uTYysMOFn7OEXY8AHQkqDIz9cBjKaRFhhUidtiJjtQKALDTwBavmKgZ29M00mRyYmUww');
+
+const paymentMethod = await stripe.paymentMethods.create({
+  type: 'us_bank_account',
+  us_bank_account: {
+    account_holder_type: 'individual',
+    account_number: '000123456789',
+    routing_number: '110000000',
+  },
+  billing_details: {
+    name: 'John Doe',
+  },
+});

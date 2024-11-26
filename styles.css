@@ -1,0 +1,115 @@
+/* Font Import */
+
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dynalight-regular {
+  font-family: "Dynalight", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parkinsans {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+/* Home-Page CSS */
+
+body{
+  background-color: black;
+  padding:0;
+  margin:0;
+}
+
+footer{
+  font-family: "Parkinsans", sans-serif;
+  color: grey;
+  text-align: center;
+  font-weight: 200;
+  font-size: x-small;
+}
+
+header{
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  color: crimson;
+  text-align: center;
+}
+
+.Products h1{
+  font-family: "Parkinsans", sans-serif;
+  color: grey;
+}
+
+.Products p{
+  font-family: "UnifrakturMaguntia", cursive;
+  color: crimson;
+}
+
+button{
+  border: none;
+  font-family: "Dynalight", cursive;
+  color: white;
+  font-size: 20px;
+  background-color: grey;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+button a:any-link{
+  border: none;
+  font-family: "Dynalight", cursive;
+  color: white;
+  font-size: 20px;
+  background-color: grey;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+#Wrapper{
+  display:inline;
+  float: inline-start;
+  text-align: center;
+  width: 100%;
+}
+
+#Card1{
+  width:20%;
+  display:inline-block;
+}
+
+#Card2{
+  width:20%;
+  display:inline-block;
+}
+
+#Card3{
+  width:20%;
+  display:inline-block;
+}
+
+#Card4{
+  width:20%;
+  display:inline-block;
+}
+
+article h2{
+  text-align: center;
+  font-family: "New Rocker", system-ui;
+  color: crimson;
+  font-style: normal;
+}
