@@ -53,6 +53,11 @@ header{
   color: grey;
 }
 
+.Products h4{
+  font-family: "UnifrakturMaguntia", cursive;
+  color: crimson;
+}
+
 .Products p{
   font-family: "UnifrakturMaguntia", cursive;
   color: crimson;
@@ -112,4 +117,105 @@ article h2{
   font-family: "New Rocker", system-ui;
   color: crimson;
   font-style: normal;
+}
+
+nav{
+  text-align: center;
+}
+
+#COLSx2{
+  width: 100%;
+  display: inline;
+  float: inline-start;
+  Color: crimson;
+  font-family: "New Rocker", system-ui;
+  text-align: center;
+}
+
+.COL1{
+  width: 25%;
+  display:inline-block;
+  text-align: left;
+  Color: crimson;
+  font-family: "New Rocker", system-ui;
+}
+
+.COL1 p{
+  color: grey;
+  font-family: "Parkinsans", sans-serif;
+}
+
+.COL2{
+  width: 25%;
+  display:inline-block;
+  text-align: center;
+  Color: crimson;
+  font-family: "New Rocker", system-ui;
+}
+
+.COL3{
+  width: 25%;
+  display:inline-block;
+  text-align: right;
+  list-style-type: none;
+  Color: crimson;
+  font-family: "New Rocker", system-ui;
+}
+
+.COL3 ul{
+  list-style-type: none;
+  color: grey;
+  font-family: "Parkinsans", sans-serif;
+  font-weight: bold;
+}
+
+.SECT3{
+  Color: crimson;
+  font-family: "New Rocker", system-ui;
+  text-align: center;
+  width: 100%;
+  display: inline;
+  float: inline-start;
+}
+
+.COLUMN1{
+  width: 50%;
+  display:inline-block;
+  color: grey;
+  font-family: "Parkinsans", sans-serif;
+}
+
+/* Shop-Page CSS */
+
+.product-row-1{
+  display:inline;
+  float: inline-start;
+  text-align: center;
+  width: 100%;
+}
+
+.PRODUCT1{
+  width:25%;
+  display:inline-block;
+  font-family: "New Rocker", system-ui;
+  color: crimson;
+}
+
+.PRODUCT2{
+  width:25%;
+  display:inline-block;
+  font-family: "New Rocker", system-ui;
+  color: crimson;
+}
+
+.PRODUCT3{
+  width:25%;
+  display:inline-block;
+  font-family: "New Rocker", system-ui;
+  color: crimson;
+}
+
+.price-SHOP{
+  color: grey;
+  font-family: "Parkinsans", sans-serif;
 }
